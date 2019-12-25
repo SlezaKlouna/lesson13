@@ -22,8 +22,8 @@ console.log(adder(2));
 
 let counter = createCounter(10);
 
-function createCounter(c) {
-    let count = c;
+function createCounter(param) {
+    let count = param;
     return {
         increment: function () {
             return ++count;
